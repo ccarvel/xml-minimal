@@ -10,7 +10,7 @@ branches:
     - main
 rvm:
  - 2.4
-
+ 
 # gemfile: docs/Gemfile
 # script:
 #   - bundle exec jekyll algolia --source docs --destination docs/_site --config docs/_config.yml
