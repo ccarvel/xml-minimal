@@ -13,11 +13,23 @@ layout: default
     {% include breadcrumbs.html %}
   {% endunless %}
 {% endif %}
-<div id="topimgs" role="topimgs">
-    <a href="{{ page.plant-img | relative_url }}"><img id="img1" src="{{ page.plant-img | relative_url }}"/></a>
+<div class="top-flex">
+  <div class="flex-child top-name">
 
-    <a href="{{ page.plant-img2 | relative_url }}"><img id="img2" src="{{ page.plant-img2 | relative_url }}"/></a>
+<!--     <h2 class="top-name">{{ page.title }}</h2> -->
+<h3 class="top-name">
+  {{page.plant-title}}<br>
+  <a href="{{page.plant-taxon-link}}"><em>{{ page.plant-taxon-content }}</em></a>
+</h3>
 </div>
+
+  <div class="flex-child">
+    <a href="{{ page.plant-img1 | relative_url }}"><img id="img1" src="{{ page.plant-img1 | relative_url }}"/></a>
+    <a href="{{ page.plant-img2 | relative_url }}"><img id="img2" src="{{ page.plant-img2 | relative_url }}"/></a>
+    <!-- <figcaption>{{ page.plant-title }}</figcaption> -->
+  </div>
+</div>
+<hr class="horizline">
 <div id="main" role="main">
   {% include sidebar.html %}
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
@@ -62,6 +74,16 @@ layout: default
              link.href = elt.getAttribute("target");
              return link;
             },
+            "ref": [
+              ["[type=internal]", function(elt) {
+                var linkNum = elt.getAttribute("target").replace(/#A-/,"");
+                var linkPre = '{{ site.baseurl }}edition/plant';
+                var link = document.createElement("a");
+                link.innerHTML = elt.innerHTML;
+                link.href = linkPre.concat(linkNum);
+                return link;
+               }]
+            ],
             "pb": ["[DeToni p. $@n]"]
           }
           });

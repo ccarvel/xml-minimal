@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="tei_MatMed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Libro Azzurro</title>
@@ -11,10 +10,8 @@
         <p>Information about the source</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
-<text>
-  <body><div type="plant" xml:id="A-144">
-        <head>N. 144 ARIA</head>
+  </teiHeader><div type="plant" xml:id="A-144">
+        <head>N. I44 ARIA</head>
         <ab>[Pirus Aria Ehrh.)</ab>
         <div type="name">
           <head>NOMI</head>
@@ -22,22 +19,19 @@
         </div>
         <div type="location">
           <head>LUOGHO</head>
-          <p> In luoghi alti et selvosi, ne sonno nella Magiela nell’Abruz- zio (3),</p>
+          <p> In luoghi alti et selvosi, ne sonno nella Magiela nell’Abruzzio (3),</p>
         </div>
         <div type="editorial-D">
-          <p>[Pianta fiorita e fruttifera ; a parte una foglia in grandezza naturale.</p>
-          <p> L'<persName ref="#Anguillara">Anguillara</persName> nei suoi «Semplici • diede una descrizione dell' åpla di Teofrasto che
+          <p>[Pianta fiorita e fruttifera; a parte una foglia in grandezza naturale.</p>
+          <p> L'<persName ref="#Anguillara">Anguillara</persName> nei suoi <ref type="bibl" target="http://id.sbn.it/bid/BVEE000526">Semplici</ref> diede una descrizione dell'aåpla di Teofrasto che
               <fw type="running-head" place="top">LIBRO AZZURRO</fw><pb n="101"/> corrisponde a
             Pirus Aria ed il Michiel seguì la sua opinione che non fu invece quella del Guilandino,
-            il quale nelle note a margine del testo dei «Semplici » scrive : « Aria inter
-            glandiferas est. Vide Theophr. lib. 3 hist. cap. 16». Contuttocið anche i botanici
+            il quale nelle note a margine del testo dei «Semplici» scrive: «Aria inter
+            glandiferas est. Vide Theophr. lib. 3 hist. cap. 16». Contuttociò anche i botanici
             posteriori accettarono l'identificazione di Anguillara.</p>
           <p>Poco dopo il Michiel la specie venne figurata da Pena e Lobelio).</p>
         </div>
         <div type="notes">
-          <note xml:id="A-144N3" n="3"> Tratto dall'Anguillara.</note>
+          <note xml:id="A-144-N3" n="3"> Tratto dall'Anguillara.</note>
         </div>
-      </div>
-    </body>
-  </text>
-</TEI>
+      </div></TEI>

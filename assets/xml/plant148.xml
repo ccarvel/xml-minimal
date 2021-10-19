@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="tei_MatMed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Libro Azzurro</title>
@@ -11,9 +10,7 @@
         <p>Information about the source</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
-<text>
-  <body><div type="plant" xml:id="A-148">
+  </teiHeader><div type="plant" xml:id="A-148">
         <head>N. 148 CITISO</head>
         <ab>[Medicago arborea L.)</ab>
         <div type="name">
@@ -37,7 +34,7 @@
         </div>
         <div type="opinions">
           <head>OPPINIONI</head>
-          <p>Li gia nominati degnissimi scrutatori la tiene per il vero Cytiso et la dimostra il
+          <p>Li già nominati degnissimi scrutatori la tiene per il vero Cytiso et la dimostra il
             Mathiolo dico a k. 1223. </p>
         </div>
         <fw type="running-head" place="top">LIBRO AZZURRO</fw>
@@ -49,14 +46,11 @@
         </div>
         <div type="editorial-D">
           <p>(La figura molto rozza è copiata, come è detto nel testo, da quella del Mattioli, ma è
-            copiata male perché i fiori, che il Mattioli fece papilionacei, qui sono campanu- lati.
+            copiata male perché i fiori, che il Mattioli fece papilionacei, qui sono campanulati.
             L'opinione del botanico sanese che questa pianta fosse il citiso virgiliano fu seguita
             anche da altri (Gleditsch)].</p>
         </div>
         <div type="notes">
-          <note xml:id="A-148N1" n="1"> Ed anche in questo libro N. 122.</note>
+          <note xml:id="A-148-N1" n="1"> Ed anche in questo libro N. 122.</note>
         </div>
-      </div>
-    </body>
-  </text>
-</TEI>
+      </div></TEI>

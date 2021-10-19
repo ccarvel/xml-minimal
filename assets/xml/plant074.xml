@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="tei_MatMed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Libro Azzurro</title>
@@ -11,21 +10,19 @@
         <p>Information about the source</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
-<text>
-  <body><div type="plant" xml:id="A-074">
+  </teiHeader><div type="plant" xml:id="A-074">
         <head>N. 74 RIBES MENOR</head>
-        <ab>[Ribes rubrum L.]</ab>
+        <ab><ref target="http://www.worldfloraonline.org/taxon/wfo-0000405218">[<hi>Ribes rubrum L.</hi>]</ref></ab>
         <div type="name">
           <head>NOMI</head>
-          <p> Ribes da volgari et Latini et Mauritani ancora - Johansz treublin et Beerlin (1) da
+          <p> Ribes da volgari et Latini et Mauritani ancora - Johansz treublin et Beerlin (<ptr target="#A-074-N1"/>) da
             Germani.</p>
         </div>
         <div type="genus">
           <head>GENERA</head>
           <p> Di 3 spetie nel mio giardin ne ho tenute sotto di questo nome Ribes, ma er esser due
             sorte come conforme le reduco in due, questa et un altra con fiori in umbella bianca et
-            fruti come picciol cerese (2) [N. 137].</p>
+            fruti come picciol cerese (<ptr target="#A-074-N2"/>) [N. 137].</p>
         </div>
         <div type="location">
           <head>LUOGHO</head>
@@ -40,7 +37,7 @@
           <head>OPPINIONI</head>
           <p> Giacobo Silvio dice il Gualtieri che il dimostra questa pianta per il poterio de la
             qual cosa io lascio il giudicio a voi se non fusse altro in chiarezza che il poterio
-            son spinoso [Gi. 135]. Et queste piante non si confano con la discretione (3) di
+            son spinoso [Gi. 135]. Et queste piante non si confano con la discretione (<ptr target="#A-074-N3"/>) di
             Serapione [Ve. 223]. Et molti altri si credeno che la sia l'uva de orso di Galeno et
             inganasi a partito perché l'Uva de orso fa foglie di Arbuto.</p>
         </div>
@@ -49,11 +46,8 @@
             ribes minore perché il maggiore, secondo il Michiel, era Viburnum Opulus].</p>
         </div>
         <div type="notes">
-          <note xml:id="A-074N1" n="1"> Johannistreub, Jobannisbeerlein.</note>
-          <note xml:id="A-074N2" n="2"> Ciliegie.</note>
-          <note xml:id="A-074N3" n="3"> Descrizione,</note>
+          <note xml:id="A-074-N1" n="1"> Johannistreub, Jobannisbeerlein.</note>
+          <note xml:id="A-074-N2" n="2"> Ciliegie.</note>
+          <note xml:id="A-074-N3" n="3"> Descrizione,</note>
         </div>
-      </div>
-    </body>
-  </text>
-</TEI>
+      </div></TEI>

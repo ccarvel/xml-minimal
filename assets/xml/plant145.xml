@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="tei_MatMed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Libro Azzurro</title>
@@ -11,9 +10,7 @@
         <p>Information about the source</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
-<text>
-  <body><div type="plant" xml:id="A-145">
+  </teiHeader><div type="plant" xml:id="A-145">
         <head>N. 145 PERO CERVINO</head>
         <ab>(Cotoneaster integerrima Medic.]</ab>
         <div type="name">
@@ -22,7 +19,7 @@
         </div>
         <div type="genus">
           <head>GENERA</head>
-          <p> Varii sono le sorte di Peri. Et questi con l'arte delle va- rieta de inesti come anche
+          <p> Varii sono le sorte di Peri. Et questi con l'arte delle va-rieta de inesti come anche
             ne sonno de silvestri. et questa spetie tenuta ancor lei.</p>
         </div>
         <div type="opinions">
@@ -31,12 +28,9 @@
             Padova tiene il sia il Chamemespilo di Valerio Cordi.</p>
         </div>
         <div type="editorial-D">
-          <p>[Pianta fruttifera ; a parte una foglia in grandezza naturale. L'opinione del Gui-
-            landino qui citata è erronea perché il Chamaemespilus del Cordo è Pirus Chamaeme- spilus
-            (115). Più giustamente il Michiel lo avvicinò all'agazzino come leggesi al N. 152).
-            -</p>
+          <p>[Pianta fruttifera; a parte una foglia in grandezza naturale. L'opinione del Gui-
+            landino qui citata è erronea perché il Chamaemespilus del <persName ref="#Cordo">Cordo</persName> è Pirus Chamaemespilus
+            (115). Più giustamente il Michiel lo avvicinò all'agazzino come leggesi al N. 152].
+            </p>
         </div>
-      </div>
-    </body>
-  </text>
-</TEI>
+      </div></TEI>

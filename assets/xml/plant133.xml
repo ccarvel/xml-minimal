@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="tei_MatMed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Libro Azzurro</title>
@@ -11,9 +10,7 @@
         <p>Information about the source</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
-<text>
-  <body><div type="plant" xml:id="A-133">
+  </teiHeader><div type="plant" xml:id="A-133">
         <head>N. 133 SMILACE ASPERA</head>
         <ab>[Smilax aspera L.]</ab>
         <div type="name">
@@ -21,7 +18,7 @@
           <p>Smilace aspera, Hedera spinosa et rovo canino da volgari Smilax aspera da Latini
             Epatitis, Lynchanthemon et Cynosbaton da (1) Egineta.<fw type="running-head" place="top">LIBRO AZZURRO</fw><pb n="94"/> molti Greci Anicetum, Heliophiton et Diticon da varij
             Anatolicon et Helide da alquanti Vyste da Egypti Mergina da Ram.i Radia da gli hetrusij
-            (1) Groszstechend et Scharpffvvinde (2) da Germani Volu- bilis acuta da molti Stracia
+            (1) Groszstechend et Scharpffvvinde (2) da Germani Volubilis acuta da molti Stracia
             brache in molti luoghi Smirnas, Dialca da molti.</p>
         </div>
         <div type="genus">
@@ -36,17 +33,14 @@
         </div>
         <div type="opinions">
           <head>OPPINIONI</head>
-          <p> De molti con errore si credeno che questa sia la zarzapa- rilla [v. N. 132].</p>
+          <p> De molti con errore si credeno che questa sia la zarzaparilla [v. N. 132].</p>
         </div>
         <div type="editorial-D">
           <p>[Pianta fiorita e fruttifera].</p>
         </div>
         <div type="notes">
-          <note xml:id="A-133N1" n="1"> Etruschi,</note>
-          <note xml:id="A-133N2" n="2"> Scharfwinde = vilucchio pungente.</note>
-          <note xml:id="A-133N3" n="3"> Venne.</note>
+          <note xml:id="A-133-N1" n="1"> Etruschi,</note>
+          <note xml:id="A-133-N2" n="2"> Scharfwinde = vilucchio pungente.</note>
+          <note xml:id="A-133-N3" n="3"> Venne.</note>
         </div>
-      </div>
-    </body>
-  </text>
-</TEI>
+      </div></TEI>

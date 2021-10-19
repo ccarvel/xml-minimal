@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="tei_MatMed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Libro Azzurro</title>
@@ -11,9 +10,7 @@
         <p>Information about the source</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
-<text>
-  <body><div type="plant" xml:id="A-085">
+  </teiHeader><div type="plant" xml:id="A-085">
         <head>N. 85 PERSEA</head>
         <div type="name">
           <head>NOMI</head>
@@ -30,18 +27,14 @@
         <div type="properties">
           <head>VIRTÙ</head>
           <p> Il suo fruto soave et facile da digerire et il suo legnio son duro et bello dunde se
-            ne fanno statue et altri honorati edificij. Et Galeno al ij delle faculta de simplici
+            ne fanno statue et altri honorati edificij. Et Galeno al ij delle facultà de simplici
             dice che il suo fruto nel regnio di Persia son si malignio che avelena chi lo mangia ma
             penso non sia di questo albero ma d'il Italico Persico comun et volgar...</p>
         </div>
         <div type="editorial-D">
-          <p>(Ceppo il quale porta alcuni rami con foglie. A parte un rametto con tre foglie (2)
-            ).</p>
+          <p>[Ceppo il quale porta alcuni rami con foglie. A parte un rametto con tre foglie (<ptr target="#A-085-N1"/>)].</p>
         </div>
         <div type="notes">
-          <note xml:id="A-085N2" n="2"> Fg, ovali-lanceolate + cordato alla base.(Ed.). </note>
+          <note xml:id="A-085-N1" n="1"> Fg, ovali-lanceolate + cordato alla base.(Ed.). </note>
         </div>
-      </div>
-    </body>
-  </text>
-</TEI>
+      </div></TEI>

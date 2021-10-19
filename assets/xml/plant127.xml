@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="tei_MatMed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Libro Azzurro</title>
@@ -11,11 +10,9 @@
         <p>Information about the source</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
-<text>
-  <body><div type="plant" xml:id="A-127">
+  </teiHeader><div type="plant" xml:id="A-127">
         <head>N. 127 MIRTO LATIFOLIA</head>
-        <ab>(Myrtus communis L.)</ab>
+        <ab><ref target="http://www.worldfloraonline.org/taxon/wfo-0000248712">[<hi>Myrtus communis L.</hi>]</ref></ab>
         <div type="name">
           <head>NOMI</head>
           <p> Mirto gentile latifolia da volgari. Li altri nomi se dirano alla sequente specie.</p>
@@ -42,14 +39,11 @@
             valle a velenati per fonghi et alla peste...</p>
         </div>
         <div type="editorial-D">
-          <p>[Pianta fiorita. Nel testo l'autore dice : « suoi fiori tra le frondi verso la summita
+          <p>[Pianta fiorita. Nel testo l'autore dice: «suoi fiori tra le frondi verso la summita
             bianchi piccioli di 7 fogline in ruosa di buono odore però nella figura i fiori
-            ascellari tro- vansi a tutte le altezze ed hanno le corolle di cinque lobi].</p>
+            ascellari trovansi a tutte le altezze ed hanno le corolle di cinque lobi].</p>
         </div>
         <div type="notes">
-          <note xml:id="A-127N3" n="3"> Bacche. </note>
+          <note xml:id="A-127-N3" n="3"> Bacche. </note>
         </div>
-      </div>
-    </body>
-  </text>
-</TEI>
+      </div></TEI>

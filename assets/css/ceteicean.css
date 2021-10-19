@@ -15,16 +15,18 @@ tei-TEIHeader {
 }
 
 tei-text {
-  font-family: serif;
+  font-family: "Garamond", serif;
+  font-size: unset;
 }
 
 /* Styles the plant name, main header. */
 tei-div[type="plant"] > tei-head {
-  display: block;
+  display: none;
+  /* display: block;
   font-weight: bold;
   font-size: 1.5m;
   margin-left: -3%;
-  margin-top: 2%;
+  margin-top: 2%; */
 }
 
 
@@ -39,12 +41,16 @@ tei-div[type="plant"] > tei-head {
 
 tei-div[type="editorial-D"], tei-div[type="editorial-M"], tei-div[type="notes"],
 tei-div[type="bibl"] {
-  font-family: sans-serif;
+  font-family: "Trebuchet", sans-serif;
   font-size: smaller;
 }
 
 tei-p {
   display: block;
+}
+
+tei-ab {
+  display: none;
 }
 
 tei-foreign, tei-hi {
@@ -107,7 +113,7 @@ tei-fw {
 
 tei-ptr > a {
   vertical-align: super;
-  font-size: smaller;
+  font-size: small;
 }
 
 /* --------------- Epidoc styles below ------------- */

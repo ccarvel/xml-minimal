@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="tei_MatMed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Libro Azzurro</title>
@@ -11,13 +10,11 @@
         <p>Information about the source</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
-<text>
-  <body><div type="plant" xml:id="A-069">
+  </teiHeader><div type="plant" xml:id="A-069">
         <head>N. 69 CIRUELAS AMARILLAS COMUNES ES FRUTA</head>
         <div type="name">
           <head>NOMI</head>
-          <p> Ciruelas amarilas communes es fruta da Indiani overo Spagnioli.</p>
+          <p>Ciruelas amarilas communes es fruta da Indiani overo Spagnioli.</p>
         </div>
         <div type="genus">
           <head>GENERA</head>
@@ -26,7 +23,7 @@
         <div type="shape">
           <head>FORMA</head>
           <p> — Suoe radice grande profunde. Son albero grande et pareno spinosi suoi piccol rami et
-            son simil al albero della Ciruellas monteses (N. 1] se non che questo son di piui scuro
+            son simil al albero della Ciruellas monteses [N. 1] se non che questo son di piui scuro
             scorzio et il fruto giallezzo.</p>
         </div>
         <div type="location">
@@ -36,7 +33,4 @@
         <div type="editorial-D">
           <p>[Pianta fruttifera con insetti volanti].</p>
         </div>
-      </div>
-    </body>
-  </text>
-</TEI>
+      </div></TEI>

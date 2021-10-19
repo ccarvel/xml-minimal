@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="tei_MatMed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Libro Azzurro</title>
@@ -11,9 +10,7 @@
         <p>Information about the source</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
-<text>
-  <body><div type="plant" xml:id="A-113">
+  </teiHeader><div type="plant" xml:id="A-113">
         <head>N. 113 GUAIABO</head>
         <div type="name">
           <head>NOMI</head>
@@ -21,7 +18,7 @@
         </div>
         <div type="genus">
           <head>GENERA</head>
-          <p> Ne sonno de varie sorte che producono de varij fruti, in al- cuni rotondi in altri
+          <p> Ne sonno de varie sorte che producono de varij fruti, in alcuni rotondi in altri
             lunghi.</p>
         </div>
         <div type="location">
@@ -35,9 +32,6 @@
             <ref type="bibl" target="http://id.sbn.it/bid/LO1E013261"/>secondo k. 98.</p>
         </div>
         <div type="editorial-D">
-          <p>[Pianta fiorita e fruttifera, figura forse copiata (di Psidium pyriferum ?)].</p>
+          <p>[Pianta fiorita e fruttifera, figura forse copiata (di <ref target="http://www.worldfloraonline.org/taxon/wfo-0000284583"><hi>Psidium pyriferum</hi></ref>?)].</p>
         </div>
-      </div>
-    </body>
-  </text>
-</TEI>
+      </div></TEI>
