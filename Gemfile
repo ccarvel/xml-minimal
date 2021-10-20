@@ -9,3 +9,4 @@ gem "jekyll-feed"
 gem "jekyll-include-cache"
 gem "kramdown-parser-gfm"
 gem 'jekyll-algolia'
+gem "algolia", "~> 2.1"
