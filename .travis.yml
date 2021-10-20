@@ -9,7 +9,7 @@ branches:
     # Change this to gh-pages if you're deploying using the gh-pages branch
     - main
 rvm:
- - 2.4
+ - 2.5
 # gemfile: docs/Gemfile
 # script:
 #   - bundle exec jekyll algolia --source docs --destination docs/_site --config docs/_config.yml
