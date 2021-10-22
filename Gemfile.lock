@@ -138,7 +138,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.2)
-  jekyll-algolia
   jekyll-feed
   jekyll-gist
   jekyll-include-cache
@@ -147,6 +146,7 @@ DEPENDENCIES
   kramdown-parser-gfm
   minimal-mistakes-jekyll
   webrick (~> 1.7)
+  #  jekyll-algolia
 
 BUNDLED WITH
    2.2.26

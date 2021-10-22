@@ -89,8 +89,8 @@ algolia:
   search_only_api_key    : # b13daa90cb52fcc201535923ac52cf9b
   powered_by             : # true # true (default), false
 google:
-  search_engine_id       : bb0ade61e4132a965
-  instant_search         : false # false (default), true
+  search_engine_id       : # bb0ade61e4132a965
+  instant_search         : # false (default), true
 
 # SEO Related
 google_site_verification :
