@@ -80,17 +80,17 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
-search_provider          : algolia # lunr (default), algolia, google
+search                   : # true # true, false (default)
+search_full_content      : # true # true, false (default)
+search_provider          : #algolia # lunr (default), algolia, google
 algolia:
-  application_id         : VIHTAJ4TX3
-  index_name             : test_MATMED
-  search_only_api_key    : b13daa90cb52fcc201535923ac52cf9b
-  powered_by             : true # true (default), false
+  application_id         : # VIHTAJ4TX3
+  index_name             : # test_MATMED
+  search_only_api_key    : # b13daa90cb52fcc201535923ac52cf9b
+  powered_by             : # true # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id       : bb0ade61e4132a965
+  instant_search         : false # false (default), true
 
 # SEO Related
 google_site_verification :
